@@ -1,0 +1,20 @@
+              in a long listing, don't print group names
+
+       -h, --human-readable
+              with -l and -s, print sizes like 1K 234M 2G etc.
+
+--
+              (overrides QUOTING_STYLE environment variable)
+
+       -r, --reverse
+              reverse order while sorting
+
+       -R, --recursive
+              list subdirectories recursively
+
+--
+       The TIME_STYLE argument can be  full-iso,  long-iso,  iso,  locale,  or
+       +FORMAT.   FORMAT  is  interpreted  like in date(1).  If FORMAT is FOR‐
+       MAT1<newline>FORMAT2, then FORMAT1 applies to non-recent files and FOR‐
+       MAT2  to  recent files.  TIME_STYLE prefixed with 'posix-' takes effect
+       only outside the POSIX locale.  Also the TIME_STYLE  environment  vari‐
